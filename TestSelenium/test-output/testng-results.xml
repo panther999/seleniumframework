@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="121500" started-at="2014-11-18T20:06:38Z" finished-at="2014-11-18T20:08:40Z">
+    <groups>
+    </groups>
+    <test name="FireFoxTest" duration-ms="20049" started-at="2014-11-18T20:06:38Z" finished-at="2014-11-18T20:06:58Z">
+      <class name="com.main.NewTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.main.NewTest@1071f57]" name="beforeClass" is-config="true" duration-ms="20034" started-at="2014-11-19T01:36:38Z" finished-at="2014-11-19T01:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.main.NewTest@1071f57]" name="f" duration-ms="5" started-at="2014-11-19T01:36:58Z" finished-at="2014-11-19T01:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.main.NewTest@1071f57]" name="afterClass" is-config="true" duration-ms="0" started-at="2014-11-19T01:36:58Z" finished-at="2014-11-19T01:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.main.NewTest -->
+    </test> <!-- FireFoxTest -->
+    <test name="IETest" duration-ms="101388" started-at="2014-11-18T20:06:58Z" finished-at="2014-11-18T20:08:40Z">
+      <class name="com.main.NewTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.main.NewTest@a2f435]" name="beforeClass" is-config="true" duration-ms="101386" started-at="2014-11-19T01:36:58Z" finished-at="2014-11-19T01:38:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iexplore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.main.NewTest@a2f435]" name="f" duration-ms="0" started-at="2014-11-19T01:38:40Z" finished-at="2014-11-19T01:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.main.NewTest@a2f435]" name="afterClass" is-config="true" duration-ms="0" started-at="2014-11-19T01:38:40Z" finished-at="2014-11-19T01:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.main.NewTest -->
+    </test> <!-- IETest -->
+  </suite> <!-- Suite -->
+</testng-results>
