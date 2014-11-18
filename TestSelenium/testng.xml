@@ -6,12 +6,12 @@
     <classes>
       <class name="com.main.NewTest"/>
     </classes>
-  </test> <!-- Test -->
- 
+  </test> 
+ <!--  
   <test name="IETest">
   <parameter name="browser" value="iexplore" />
     <classes>
       <class name="com.main.NewTest"/>
     </classes>
-  </test> <!-- Test -->
+  </test>  -->
 </suite> <!-- Suite -->
