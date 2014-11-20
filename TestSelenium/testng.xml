@@ -7,11 +7,11 @@
       <class name="com.main.NewTest"/>
     </classes>
   </test> 
- <!--  
+ 
   <test name="IETest">
   <parameter name="browser" value="iexplore" />
     <classes>
       <class name="com.main.NewTest"/>
     </classes>
-  </test>  -->
+  </test>  
 </suite> <!-- Suite -->
