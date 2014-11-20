@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Started webdriver for "firefox" successfully]]>
     </line>
     <line>
-      <![CDATA[Started webdriver for "iexplore" successfully]]>
+      <![CDATA[Closed webdriver]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="17564" started-at="2014-11-20T10:33:11Z" finished-at="2014-11-20T10:33:29Z">
+  <suite name="Suite" duration-ms="15499" started-at="2014-11-20T20:27:15Z" finished-at="2014-11-20T20:27:30Z">
     <groups>
     </groups>
-    <test name="FireFoxTest" duration-ms="13636" started-at="2014-11-20T10:33:11Z" finished-at="2014-11-20T10:33:25Z">
+    <test name="FireFoxTest" duration-ms="15499" started-at="2014-11-20T20:27:15Z" finished-at="2014-11-20T20:27:30Z">
       <class name="com.main.NewTest">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.main.NewTest@c84a44]" name="beforeClass" is-config="true" duration-ms="13351" started-at="2014-11-20T16:03:11Z" finished-at="2014-11-20T16:03:24Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.main.NewTest@d1a34a]" name="beforeClass" is-config="true" duration-ms="13016" started-at="2014-11-21T01:57:15Z" finished-at="2014-11-21T01:57:28Z">
           <params>
             <param index="0">
               <value>
@@ -27,41 +27,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="homepage()[pri:0, instance:com.main.NewTest@c84a44]" name="homepage" duration-ms="6" started-at="2014-11-20T16:03:24Z" finished-at="2014-11-20T16:03:24Z">
+        <test-method status="PASS" signature="homepage()[pri:0, instance:com.main.NewTest@d1a34a]" name="homepage" duration-ms="2231" started-at="2014-11-21T01:57:28Z" finished-at="2014-11-21T01:57:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepage -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.main.NewTest@c84a44]" name="afterClass" is-config="true" duration-ms="266" started-at="2014-11-20T16:03:24Z" finished-at="2014-11-20T16:03:25Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.main.NewTest@d1a34a]" name="afterClass" is-config="true" duration-ms="242" started-at="2014-11-21T01:57:30Z" finished-at="2014-11-21T01:57:30Z">
           <reporter-output>
+            <line>
+              <![CDATA[Closed webdriver]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.main.NewTest -->
     </test> <!-- FireFoxTest -->
-    <test name="IETest" duration-ms="3837" started-at="2014-11-20T10:33:25Z" finished-at="2014-11-20T10:33:29Z">
-      <class name="com.main.NewTest">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.main.NewTest@158517d]" name="beforeClass" is-config="true" duration-ms="2797" started-at="2014-11-20T16:03:25Z" finished-at="2014-11-20T16:03:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[iexplore]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Started webdriver for "iexplore" successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="homepage()[pri:0, instance:com.main.NewTest@158517d]" name="homepage" duration-ms="1" started-at="2014-11-20T16:03:28Z" finished-at="2014-11-20T16:03:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homepage -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.main.NewTest@158517d]" name="afterClass" is-config="true" duration-ms="1037" started-at="2014-11-20T16:03:28Z" finished-at="2014-11-20T16:03:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.main.NewTest -->
-    </test> <!-- IETest -->
   </suite> <!-- Suite -->
 </testng-results>

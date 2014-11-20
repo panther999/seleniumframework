@@ -5,7 +5,7 @@
     <classes>
       <class name="com.main.NewTest">
         <methods>
-          <include name="f"/>
+          <include name="homepage"/>
         </methods>
       </class> <!-- com.main.NewTest -->
     </classes>
