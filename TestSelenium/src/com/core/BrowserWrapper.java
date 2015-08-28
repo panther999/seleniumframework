@@ -14,7 +14,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.Reporter;
 import org.testng.annotations.Parameters;
+
+import outputreports.Log;
 
 public class BrowserWrapper {
 public String BrowserType;
@@ -46,8 +49,10 @@ public WebDriver startbrowser(String browser){
 			
 		
 		
+		Log.info("Started webdriver for \"" + browser + "\" successfully");
+		Reporter.log("Started webdriver for \"" + browser + "\" successfully",true);
+		Driver.manage().window().maximize();
 		
-	
 	return Driver;
 	
 }
